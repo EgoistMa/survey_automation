@@ -1,0 +1,111 @@
+2025-06-04 19:07:26,240 - utils.logger - INFO - Logging initialized. Log file: logs\survey_automation_20250604_190726.log
+2025-06-04 19:07:26,241 - utils.logger - INFO - Starting GUI mode
+2025-06-04 19:07:28,593 - core.worker - INFO - Agent Mode - Runs: 1, Threads: 3, Submit: False
+2025-06-04 19:07:30,716 - core.automation - INFO - Starting survey - Date: 04/06/2025, Location: Manly, Submit: No
+2025-06-04 19:07:30,716 - core.pageHandlers.basePage - INFO - Page1Handler - Starting page processing
+2025-06-04 19:07:32,103 - core.pageHandlers.page1 - INFO - Clicked 'Start Survey' button
+2025-06-04 19:07:32,103 - core.pageHandlers.basePage - INFO - Page1Handler - Page processing completed
+2025-06-04 19:07:32,104 - core.pageHandlers.basePage - INFO - Page2Handler - Starting page processing
+2025-06-04 19:07:32,374 - core.pageHandlers.page2 - INFO - Date selected: 2025-06-04
+2025-06-04 19:07:32,431 - core.pageHandlers.page2 - INFO - Time period selected: Lunch (11am – 2pm)
+2025-06-04 19:07:32,477 - core.pageHandlers.page2 - INFO - State selected: NSW
+2025-06-04 19:07:33,008 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:07:33,008 - core.pageHandlers.basePage - INFO - Page2Handler - Page processing completed
+2025-06-04 19:07:33,008 - core.pageHandlers.basePage - INFO - Page3Handler - Starting page processing
+2025-06-04 19:07:33,202 - core.pageHandlers.page3 - INFO - Location selected: Manly
+2025-06-04 19:07:33,256 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:07:33,256 - core.pageHandlers.basePage - INFO - Page3Handler - Page processing completed
+2025-06-04 19:07:33,256 - core.pageHandlers.basePage - INFO - Page4Handler - Starting page processing
+2025-06-04 19:07:34,725 - core.pageHandlers.basePage - ERROR - Page4Handler - Error: Message: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c0e8fea5+79173]
+	GetHandleVerifier [0x0x7ff6c0e8ff00+79264]
+	(No symbol) [0x0x7ff6c0c49e5a]
+	(No symbol) [0x0x7ff6c0c60264]
+	(No symbol) [0x0x7ff6c0c5ed33]
+	(No symbol) [0x0x7ff6c0c52551]
+	(No symbol) [0x0x7ff6c0c526b1]
+	(No symbol) [0x0x7ff6c0c5041f]
+	(No symbol) [0x0x7ff6c0c54be1]
+	(No symbol) [0x0x7ff6c0cf22b4]
+	(No symbol) [0x0x7ff6c0cc896a]
+	(No symbol) [0x0x7ff6c0cf100d]
+	(No symbol) [0x0x7ff6c0cc8743]
+	(No symbol) [0x0x7ff6c0c914c1]
+	(No symbol) [0x0x7ff6c0c92253]
+	GetHandleVerifier [0x0x7ff6c115a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c115472d+2981325]
+	GetHandleVerifier [0x0x7ff6c1173380+3107360]
+	GetHandleVerifier [0x0x7ff6c0eaaa2e+188622]
+	GetHandleVerifier [0x0x7ff6c0eb22bf+219487]
+	GetHandleVerifier [0x0x7ff6c0e98df4+115860]
+	GetHandleVerifier [0x0x7ff6c0e98fa9+116297]
+	GetHandleVerifier [0x0x7ff6c0e7f558+11256]
+	BaseThreadInitThunk [0x0x7ffd75cce8d7+23]
+	RtlUserThreadStart [0x0x7ffd7757c5dc+44]
+
+2025-06-04 19:07:34,851 - core.utils.pageUtils - INFO - Screenshot saved: screenshot_error_page4handler_20250604_190734.png
+2025-06-04 19:07:34,851 - core.automation - ERROR - Error on page 4 (Page4Handler): Message: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c0e8fea5+79173]
+	GetHandleVerifier [0x0x7ff6c0e8ff00+79264]
+	(No symbol) [0x0x7ff6c0c49e5a]
+	(No symbol) [0x0x7ff6c0c60264]
+	(No symbol) [0x0x7ff6c0c5ed33]
+	(No symbol) [0x0x7ff6c0c52551]
+	(No symbol) [0x0x7ff6c0c526b1]
+	(No symbol) [0x0x7ff6c0c5041f]
+	(No symbol) [0x0x7ff6c0c54be1]
+	(No symbol) [0x0x7ff6c0cf22b4]
+	(No symbol) [0x0x7ff6c0cc896a]
+	(No symbol) [0x0x7ff6c0cf100d]
+	(No symbol) [0x0x7ff6c0cc8743]
+	(No symbol) [0x0x7ff6c0c914c1]
+	(No symbol) [0x0x7ff6c0c92253]
+	GetHandleVerifier [0x0x7ff6c115a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c115472d+2981325]
+	GetHandleVerifier [0x0x7ff6c1173380+3107360]
+	GetHandleVerifier [0x0x7ff6c0eaaa2e+188622]
+	GetHandleVerifier [0x0x7ff6c0eb22bf+219487]
+	GetHandleVerifier [0x0x7ff6c0e98df4+115860]
+	GetHandleVerifier [0x0x7ff6c0e98fa9+116297]
+	GetHandleVerifier [0x0x7ff6c0e7f558+11256]
+	BaseThreadInitThunk [0x0x7ffd75cce8d7+23]
+	RtlUserThreadStart [0x0x7ffd7757c5dc+44]
+
+2025-06-04 19:07:34,951 - core.utils.pageUtils - INFO - Screenshot saved: screenshot_error_page_4_20250604_190734.png
+2025-06-04 19:07:34,951 - core.automation - ERROR - Error filling survey: Message: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c0e8fea5+79173]
+	GetHandleVerifier [0x0x7ff6c0e8ff00+79264]
+	(No symbol) [0x0x7ff6c0c49e5a]
+	(No symbol) [0x0x7ff6c0c60264]
+	(No symbol) [0x0x7ff6c0c5ed33]
+	(No symbol) [0x0x7ff6c0c52551]
+	(No symbol) [0x0x7ff6c0c526b1]
+	(No symbol) [0x0x7ff6c0c5041f]
+	(No symbol) [0x0x7ff6c0c54be1]
+	(No symbol) [0x0x7ff6c0cf22b4]
+	(No symbol) [0x0x7ff6c0cc896a]
+	(No symbol) [0x0x7ff6c0cf100d]
+	(No symbol) [0x0x7ff6c0cc8743]
+	(No symbol) [0x0x7ff6c0c914c1]
+	(No symbol) [0x0x7ff6c0c92253]
+	GetHandleVerifier [0x0x7ff6c115a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c115472d+2981325]
+	GetHandleVerifier [0x0x7ff6c1173380+3107360]
+	GetHandleVerifier [0x0x7ff6c0eaaa2e+188622]
+	GetHandleVerifier [0x0x7ff6c0eb22bf+219487]
+	GetHandleVerifier [0x0x7ff6c0e98df4+115860]
+	GetHandleVerifier [0x0x7ff6c0e98fa9+116297]
+	GetHandleVerifier [0x0x7ff6c0e7f558+11256]
+	BaseThreadInitThunk [0x0x7ffd75cce8d7+23]
+	RtlUserThreadStart [0x0x7ffd7757c5dc+44]
+
+2025-06-04 19:07:35,049 - core.utils.pageUtils - INFO - Screenshot saved: screenshot_error_final_20250604_190734.png
+2025-06-04 19:07:39,428 - core.worker - INFO - Task completed! Success: 0, Failures: 1
+2025-06-04 19:07:39,428 - core.worker - WARNING - Failed tasks:
+2025-06-04 19:07:39,428 - core.worker - WARNING -   Location: Manly, Date: 04/06/2025, Error: Unknown

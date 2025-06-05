@@ -1,0 +1,30 @@
+2025-06-04 19:20:11,284 - utils.logger - INFO - Logging initialized. Log file: logs\survey_automation_20250604_192011.log
+2025-06-04 19:20:11,285 - utils.logger - INFO - Starting GUI mode
+2025-06-04 19:20:15,013 - core.worker - INFO - Agent Mode - Runs: 1, Threads: 3, Submit: False
+2025-06-04 19:20:17,185 - core.automation - INFO - Starting survey - Date: 04/06/2025, Location: Chatswood, Submit: No
+2025-06-04 19:20:17,185 - core.pageHandlers.basePage - INFO - Page1Handler - Starting page processing
+2025-06-04 19:20:18,567 - core.pageHandlers.page1 - INFO - Clicked 'Start Survey' button
+2025-06-04 19:20:18,567 - core.pageHandlers.basePage - INFO - Page1Handler - Page processing completed
+2025-06-04 19:20:18,567 - core.pageHandlers.basePage - INFO - Page2Handler - Starting page processing
+2025-06-04 19:20:18,906 - core.pageHandlers.page2 - INFO - Date selected: 2025-06-04
+2025-06-04 19:20:18,972 - core.pageHandlers.page2 - INFO - Time period selected: Morning (6am-11am)
+2025-06-04 19:20:19,016 - core.pageHandlers.page2 - INFO - State selected: NSW
+2025-06-04 19:20:19,484 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:20:19,485 - core.pageHandlers.basePage - INFO - Page2Handler - Page processing completed
+2025-06-04 19:20:19,485 - core.pageHandlers.basePage - INFO - Page3Handler - Starting page processing
+2025-06-04 19:20:19,692 - core.pageHandlers.page3 - INFO - Location selected: Chatswood
+2025-06-04 19:20:21,254 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:20:21,254 - core.pageHandlers.basePage - INFO - Page3Handler - Page processing completed
+2025-06-04 19:20:21,254 - core.pageHandlers.basePage - INFO - Page4Handler - Starting page processing
+2025-06-04 19:20:21,283 - core.pageHandlers.page4 - INFO - Selecting dining option: QuestionAnswers_5067953_31734367
+2025-06-04 19:20:21,433 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:20:21,433 - core.pageHandlers.basePage - INFO - Page4Handler - Page processing completed
+2025-06-04 19:20:21,433 - core.pageHandlers.basePage - INFO - Page5Handler - Starting page processing
+2025-06-04 19:20:21,952 - core.pageHandlers.page5 - INFO - Found 8 rating options with value 7
+2025-06-04 19:20:22,026 - core.pageHandlers.page5 - INFO - Selected rating for question 1: QuestionAnswers_5067967_31734449_3340248_Grid
+2025-06-04 19:20:22,190 - core.pageHandlers.page5 - INFO - Selected rating for question 2: QuestionAnswers_5067967_31734449_3340250_Grid
+2025-06-04 19:20:22,349 - core.pageHandlers.page5 - INFO - Selected rating for question 3: QuestionAnswers_5067967_31734449_3340246_Grid
+2025-06-04 19:20:22,508 - core.pageHandlers.page5 - INFO - Selected rating for question 4: QuestionAnswers_5067967_31734449_3340247_Grid
+2025-06-04 19:20:22,671 - core.pageHandlers.page5 - INFO - Selected rating for question 5: QuestionAnswers_5067967_31734449_3340245_Grid
+2025-06-04 19:20:22,832 - core.pageHandlers.page5 - INFO - Selected rating for question 6: QuestionAnswers_5067967_31734449_3340251_Grid
+2025-06-04 19:20:22,992 - core.pageHandlers.page5 - INFO - Selected rating for question 7: QuestionAnswers_5067967_31734449_3340249_Grid

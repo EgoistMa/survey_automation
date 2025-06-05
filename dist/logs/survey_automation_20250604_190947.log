@@ -1,0 +1,59 @@
+2025-06-04 19:09:47,029 - utils.logger - INFO - Logging initialized. Log file: logs\survey_automation_20250604_190947.log
+2025-06-04 19:09:47,030 - utils.logger - INFO - Starting GUI mode
+2025-06-04 19:09:48,992 - core.worker - INFO - Agent Mode - Runs: 1, Threads: 3, Submit: False
+2025-06-04 19:09:50,923 - core.automation - INFO - Starting survey - Date: 04/06/2025, Location: Manly, Submit: No
+2025-06-04 19:09:50,923 - core.pageHandlers.basePage - INFO - Page1Handler - Starting page processing
+2025-06-04 19:09:52,301 - core.pageHandlers.page1 - INFO - Clicked 'Start Survey' button
+2025-06-04 19:09:52,302 - core.pageHandlers.basePage - INFO - Page1Handler - Page processing completed
+2025-06-04 19:09:52,302 - core.pageHandlers.basePage - INFO - Page2Handler - Starting page processing
+2025-06-04 19:09:52,567 - core.pageHandlers.page2 - INFO - Date selected: 2025-06-04
+2025-06-04 19:09:52,626 - core.pageHandlers.page2 - INFO - Time period selected: Lunch (11am – 2pm)
+2025-06-04 19:09:52,672 - core.pageHandlers.page2 - INFO - State selected: NSW
+2025-06-04 19:09:53,165 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:53,166 - core.pageHandlers.basePage - INFO - Page2Handler - Page processing completed
+2025-06-04 19:09:53,166 - core.pageHandlers.basePage - INFO - Page3Handler - Starting page processing
+2025-06-04 19:09:53,377 - core.pageHandlers.page3 - INFO - Location selected: Manly
+2025-06-04 19:09:53,432 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:53,432 - core.pageHandlers.basePage - INFO - Page3Handler - Page processing completed
+2025-06-04 19:09:53,432 - core.pageHandlers.basePage - INFO - Page4Handler - Starting page processing
+2025-06-04 19:09:54,830 - core.pageHandlers.page4 - INFO - Selecting dining option: QuestionAnswers_5067953_31734368
+2025-06-04 19:09:54,946 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:54,946 - core.pageHandlers.basePage - INFO - Page4Handler - Page processing completed
+2025-06-04 19:09:54,946 - core.pageHandlers.basePage - INFO - Page5Handler - Starting page processing
+2025-06-04 19:09:55,459 - core.pageHandlers.page5 - INFO - Found 8 rating options with value 7
+2025-06-04 19:09:55,526 - core.pageHandlers.page5 - INFO - Selected rating for question 1: QuestionAnswers_5067967_31734449_3340246_Grid
+2025-06-04 19:09:55,687 - core.pageHandlers.page5 - INFO - Selected rating for question 2: QuestionAnswers_5067967_31734449_3340252_Grid
+2025-06-04 19:09:55,845 - core.pageHandlers.page5 - INFO - Selected rating for question 3: QuestionAnswers_5067967_31734449_3340249_Grid
+2025-06-04 19:09:56,002 - core.pageHandlers.page5 - INFO - Selected rating for question 4: QuestionAnswers_5067967_31734449_3340247_Grid
+2025-06-04 19:09:56,164 - core.pageHandlers.page5 - INFO - Selected rating for question 5: QuestionAnswers_5067967_31734449_3340250_Grid
+2025-06-04 19:09:56,324 - core.pageHandlers.page5 - INFO - Selected rating for question 6: QuestionAnswers_5067967_31734449_3340245_Grid
+2025-06-04 19:09:56,483 - core.pageHandlers.page5 - INFO - Selected rating for question 7: QuestionAnswers_5067967_31734449_3340251_Grid
+2025-06-04 19:09:56,640 - core.pageHandlers.page5 - INFO - Selected rating for question 8: QuestionAnswers_5067967_31734449_3340248_Grid
+2025-06-04 19:09:56,805 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:56,805 - core.pageHandlers.basePage - INFO - Page5Handler - Page processing completed
+2025-06-04 19:09:56,805 - core.pageHandlers.basePage - INFO - Page6Handler - Starting page processing
+2025-06-04 19:09:58,025 - core.pageHandlers.page6 - INFO - Feedback text entered: ' ' (length: 1)
+2025-06-04 19:09:58,184 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:58,184 - core.pageHandlers.basePage - INFO - Page6Handler - Page processing completed
+2025-06-04 19:09:58,184 - core.pageHandlers.basePage - INFO - Page7Handler - Starting page processing
+2025-06-04 19:09:58,817 - core.pageHandlers.page7 - INFO - Successfully selected recommendation rating: 10
+2025-06-04 19:09:58,981 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:09:58,981 - core.pageHandlers.basePage - INFO - Page7Handler - Page processing completed
+2025-06-04 19:09:58,981 - core.pageHandlers.basePage - INFO - Page8Handler - Starting page processing
+2025-06-04 19:10:04,782 - core.pageHandlers.page8 - INFO - Successfully selected membership status: NO (No)
+2025-06-04 19:10:04,936 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:10:04,938 - core.pageHandlers.basePage - INFO - Page8Handler - Page processing completed
+2025-06-04 19:10:04,938 - core.pageHandlers.basePage - INFO - Page9Handler - Starting page processing
+2025-06-04 19:10:10,688 - core.pageHandlers.page9 - INFO - Successfully selected next visit timing: Within the next week
+2025-06-04 19:10:10,844 - core.utils.pageUtils - INFO - Clicked 'Next' button
+2025-06-04 19:10:10,845 - core.pageHandlers.basePage - INFO - Page9Handler - Page processing completed
+2025-06-04 19:10:10,845 - core.pageHandlers.basePage - INFO - Page10Handler - Starting page processing
+2025-06-04 19:10:11,650 - core.utils.pageUtils - INFO - Skipping empty field: Name
+2025-06-04 19:10:16,794 - core.utils.pageUtils - INFO - Filled State: 'NSW' using Strategy 2 (label for attribute)
+2025-06-04 19:10:21,957 - core.utils.pageUtils - INFO - Filled Email address: 'john.wilson@icloud.com' using Strategy 2 (label for attribute)
+2025-06-04 19:10:27,107 - core.utils.pageUtils - INFO - Filled Contact number: '0422141423' using Strategy 2 (label for attribute)
+2025-06-04 19:10:27,138 - core.utils.pageUtils - INFO - Prize draw opt-out checkbox already in correct state (False)
+2025-06-04 19:10:27,239 - core.pageHandlers.page10 - INFO - Survey completed (not submitted - test mode)
+2025-06-04 19:10:27,239 - core.pageHandlers.basePage - INFO - Page10Handler - Page processing completed
+2025-06-04 19:10:27,239 - core.automation - INFO - Survey successfully completed - Location: Manly
+2025-06-04 19:10:31,558 - core.worker - INFO - Task completed! Success: 1, Failures: 0
