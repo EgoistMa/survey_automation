@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment folders (but not 'venv')
+env/
+ENV/
+.venv/
+
+# Ignore PNG images
+*.png
+
+# Ignore log files
+*.log
+logs/

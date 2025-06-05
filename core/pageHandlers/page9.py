@@ -34,9 +34,7 @@ class Page9Handler(BasePage):
             
             # Select the next visit timing
             self._select_next_visit_timing(next_visit)
-            
-            # Small delay to ensure selection is registered
-            time.sleep(self.config.CLICK_DELAY)
+        
             
             self.utils.click_next_button()
             self.log_complete()

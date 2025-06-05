@@ -34,8 +34,6 @@ class Page5Handler(BasePage):
                 EC.presence_of_all_elements_located((By.XPATH, f"//input[@type='radio' and @value='{rating_value}']"))
             )
             
-            logger.info(f"Found {len(rating_buttons)} rating options with value {rating_value}")
-            
             # Click each rating option
             self._select_all_ratings(rating_buttons)
             
@@ -58,8 +56,6 @@ class Page5Handler(BasePage):
                     logger.info(f"Selected rating for question {i+1}: {button_id}")
                 else:
                     logger.warning(f"Failed to select option for question {i+1}")
-                
-                time.sleep(self.config.CLICK_DELAY)
                 
             except StaleElementReferenceException:
                 logger.warning(f"Stale element reference for question {i+1}, skipping")

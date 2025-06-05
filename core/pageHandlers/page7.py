@@ -35,9 +35,6 @@ class Page7Handler(BasePage):
             # Find and click the radio button with the target value
             self._select_recommendation_rating(recommend_rating)
             
-            # Small delay to ensure selection is registered
-            time.sleep(self.config.CLICK_DELAY)
-            
             self.utils.click_next_button()
             self.log_complete()
             

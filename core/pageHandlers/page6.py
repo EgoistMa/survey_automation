@@ -38,9 +38,6 @@ class Page6Handler(BasePage):
             
             logger.info(f"Feedback text entered: '{feedback_text}' (length: {len(feedback_text)})")
             
-            # Optional: Add a small delay to ensure text is properly entered
-            time.sleep(self.config.CLICK_DELAY)
-            
             self.utils.click_next_button()
             self.log_complete()
             

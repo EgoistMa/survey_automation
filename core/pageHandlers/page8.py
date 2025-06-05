@@ -34,9 +34,7 @@ class Page8Handler(BasePage):
             
             # Select the membership status
             self._select_membership_status(membership_status)
-            
-            # Small delay to ensure selection is registered
-            time.sleep(self.config.CLICK_DELAY)
+        
             
             self.utils.click_next_button()
             self.log_complete()
